@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Young+Serif&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="miniprojectstyle.css">
+  </head>
+  <body>
+    <div class="main_box">
+      <input type="checkbox" id="check" />
+      <div class="btn_one">
+        <label for="check" >
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </div>
+
+      <div class="sidebar_menu">
+        <div class="logo">
+          <a href="#">Nikon's camera</a>
+        </div>
+
+        <div class="btn_two">
+          <label for="check" >
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <i class="fa-solid fa-image"></i>
+              <a href="https://www.google.com/search?q=camera+photography&sca_esv=571840155&tbm=isch&sxsrf=AM9HkKljFMGRWqF0seRH8V7B_K9VASt-KA:1696841900398&source=lnms&sa=X&ved=2ahUKEwjO7dnVzOiBAxWHxTgGHb5HDDUQ_AUoAXoECAMQAw&biw=959&bih=873&dpr=1">Gallery</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <a href="https://www.google.com/search?q=camera+photogra&sca_esv=571840155&sxsrf=AM9HkKn1jqtUDMRdo3a0ljNc1Q4w_RNGwA%3A1696841887495&source=hp&ei=n8AjZaD2G5jT2roPpeyJyA0&iflsig=AO6bgOgAAAAAZSPOr2yRfzO7lxu8fnmko42h7Zp9QkqD&ved=0ahUKEwjgwcTPzOiBAxWYqVYBHSV2AtkQ4dUDCAo&uact=5&oq=camera+photogra&gs_lp=Egdnd3Mtd2l6Ig9jYW1lcmEgcGhvdG9ncmEyCxAAGIoFGLEDGJECMggQABiKBRiRAjIFEAAYgAQyCBAAGIoFGJECMggQABiKBRiRAjIIEAAYigUYkQIyBRAAGIAEMgoQABgCGMsBGIAEMgUQABiABDIFEAAYgARIlz9QkRFY9TpwBXgAkAEAmAH0AaABwxaqAQYwLjE1LjK4AQPIAQD4AQGoAgrCAgcQIxjqAhgnwgINEC4YxwEY0QMY6gIYJ8ICBxAjGIoFGCfCAgsQABiABBixAxiDAcICCxAuGIoFGLEDGIMBwgIKEAAYgAQYFBiHAsICERAuGIAEGLEDGIMBGMcBGNEDwgILEAAYigUYsQMYgwHCAg0QABiABBgUGIcCGLEDwgILEC4YgAQYsQMYgwHCAggQLhiABBixA8ICCBAAGIAEGLEDwgILEC4YgAQYxwEYrwHCAg0QLhiABBixAxiDARgKwgIKEAAYgAQYsQMYCsICChAuGAIYywEYgATCAgoQLhjLARiABBgKwgIHEAAYgAQYCsICDhAAGIoFGLEDGIMBGJECwgIMEAAYAhjLARiABBgK&sclient=gws-wiz">Shortcuts</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-photo-film"></i>
+              <a href="https://www.museocamera.org/exhibitions">Exhibits</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-calendar-days"></i>
+              <a href="https://www.photoworkout.com/best-camera-for-event-photography/">Events</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-store"></i>
+              <a href="https://www.google.com/search?q=buy+camera&sca_esv=571840155&sxsrf=AM9HkKljFMGRWqF0seRH8V7B_K9VASt-KA%3A1696841900398&ei=rMAjZc7nF4eL4-EPvo-xqAM&ved=0ahUKEwjO7dnVzOiBAxWHxTgGHb5HDDUQ4dUDCBA&uact=5&oq=buy+camera&gs_lp=Egxnd3Mtd2l6LXNlcnAiCmJ1eSBjYW1lcmEyCBAAGIoFGJECMggQABiKBRiRAjIHEAAYigUYQzIFEAAYgAQyBxAAGIoFGEMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEidSFCBBVjRQ3AJeAGQAQCYAboCoAHoHqoBCDAuNy4xMC4xuAEDyAEA-AEBqAIUwgIHECMY6gIYJ8ICDRAuGMcBGNEDGOoCGCfCAhYQABgDGI8BGOUCGOoCGLQCGIwD2AEBwgIWEC4YAxiPARjlAhjqAhi0AhiMA9gBAcICBBAjGCfCAgcQIxiKBRgnwgILEAAYgAQYsQMYgwHCAgoQABiABBgUGIcCwgIREC4YgAQYsQMYgwEYxwEY0QPCAgsQABiKBRixAxiRAsICDRAAGIAEGBQYhwIYsQPCAgsQLhiABBixAxiDAcICCBAuGIAEGLEDwgILEAAYigUYsQMYgwHCAgsQLhiABBjHARivAcICChAAGAIYywEYgATCAggQABiABBixA8ICDhAAGIoFGLEDGIMBGJECwgIOEC4YgAQYsQMYxwEYrwHCAggQABiKBRixA8ICDhAAGIAEGLEDGIMBGMkD4gMEGAAgQYgGAboGBggBEAEYCw&sclient=gws-wiz-serp">Store</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="https://www.google.com/search?q=nikon+camera+contact&sca_esv=571840155&sxsrf=AM9HkKnggArL9C_CBHWjXmCb1FYg-xuNJA%3A1696842284663&ei=LMIjZbD2J_rZseMP1rmmuAg&oq=+nikon+camera+contact&gs_lp=Egxnd3Mtd2l6LXNlcnAiFSBuaWtvbiBjYW1lcmEgY29udGFjdCoCCAEyBRAAGIAEMgQQABgeMgYQABgeGA8yCBAAGIoFGIYDMggQABiKBRiGAzIIEAAYigUYhgMyCBAAGIoFGIYDMggQABiKBRiGA0iLJlC1AljPEnABeACQAQCYAa4CoAGQDqoBBzAuMi41LjG4AQHIAQD4AQHCAgoQABhHGNYEGLADwgIKEAAYigUYsAMYQ8ICBxAjGLACGCfCAgcQABgNGIAEwgIGEAAYBxgewgIIEAAYBxgeGA_iAwQYACBBiAYBkAYK&sclient=gws-wiz-serp">Contact</a>
+            </li>
+            <li>
+              <i class="fa-regular fa-comments"></i>
+              <a href="https://www.rtings.com/camera/reviews/nikon">Feedback</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="social_media">
+          <ul>
+            <a href="https://www.facebook.com/NikonIndia/"><i class="fa-brands fa-facebook"></i></i></a>
+            <a href="https://twitter.com/NikonIndia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/nikonindiaofficial/"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="https://www.google.com/search?q=nikon+camera+youtube&sca_esv=571840155&sxsrf=AM9HkKmhFyI4JQxywX0Nm99a1Y2t6XcGNQ%3A1696842591043&ei=X8MjZf2eAuyVseMPqZuEuAQ&oq=nikon+camera+youtu&gs_lp=Egxnd3Mtd2l6LXNlcnAiEm5pa29uIGNhbWVyYSB5b3V0dSoCCAAyBRAAGIAEMgYQABgWGB4yCBAAGIoFGIYDMggQABiKBRiGA0iAK1DUAlifH3ABeACQAQCYAe0BoAH-FKoBBjAuMTQuMbgBAcgBAPgBAcICChAAGEcY1gQYsAPCAgcQIxiKBRgnwgIIEAAYFhgeGArCAgQQIxgnwgIIEAAYgAQYsQPCAg0QLhgCGMsBGIAEGOUEwgIIEC4YgAQY5QTCAgoQABgWGB4YDxgKwgIIEAAYFhgeGA_iAwQYACBBiAYBkAYI&sclient=gws-wiz-serp"><i class="fa-brands fa-youtube"></i></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
